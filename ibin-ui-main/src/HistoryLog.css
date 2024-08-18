@@ -1,0 +1,48 @@
+.history-log {
+  padding-left: 40px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters label {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.filters input,
+.filters select {
+  margin-left: 16px;
+  padding: 4px;
+  font-size: 17px;
+}
+
+.history-table {
+  width: 100%;
+  margin-top: 17px;
+}
+
+.history-table th,
+.history-table td {
+  border: 2px solid #ddd;
+  padding: 13px;
+  text-align: left;
+}
+
+.history-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.history-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.history-table tr:hover {
+  background-color: #ddd;
+}
+
+.history-table td {
+  font-size: 20px;
+}

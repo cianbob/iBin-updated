@@ -1,0 +1,105 @@
+/* src/MapPlaceholder.css */
+.map-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 0px; /* Adjust gap as needed */
+  }
+  
+  .map-placeholder {
+    flex: 4; /* Map takes up 4 parts of the container */
+    position: relative; /* Ensure it can contain absolutely positioned elements */
+    height: 500px; /* Set to desired height, e.g., 500px */
+    margin-right: 10px; /* Optional: Add some space between the map and info panel */
+}
+
+.map-image {
+    display: none; /* Hide the placeholder image */
+}
+
+  
+  .info-panel {
+    flex: 3.8; /* Info panel takes up 1/3 of the container */
+    background-color: #f9f9f9;
+    padding: 20px; /* Increased padding for a fuller look */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .info-panel h2, .info-panel h3 {
+    margin-top: 0;
+    font-size: 1.5em; /* Increase header size */
+  }
+  
+  .info-panel p {
+    margin: 10px 0;
+    font-size: 1.2em; /* Increase text size */
+  }
+  
+  .info-panel strong {
+    color: #d9534f; /* Highlighted color */
+  }
+  
+  .bin-status-summary {
+    margin-top: 20px;
+    background-color: #e9f5e9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .bin-status-summary h3 {
+    margin-top: 0;
+    font-size: 1.5em; /* Increase header size */
+  }
+  
+  .bin-status-summary p {
+    margin: 10px 0;
+    font-size: 1.2em; /* Increase text size */
+  }
+  
+  .status-red {
+    color: #d9534f; /* Red color for status text */
+  }
+  
+  .status-yellow {
+    color: #f0ad4e; /* Yellow color for status text */
+  }
+  
+  .status-green {
+    color: #28a745; /* Green color for status text */
+  }
+  
+  .status-number {
+    color: #000; /* Black color for numbers */
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn-complete, .btn-details {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #28a745; /* Green for complete */
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-complete:hover {
+    background-color: #218838;
+  }
+  
+  .btn-details {
+    background-color: #007bff; /* Blue for details */
+  }
+  
+  .btn-details:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  

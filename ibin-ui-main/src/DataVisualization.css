@@ -1,0 +1,30 @@
+.data-visualization {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: flex-start; /* Align items to the start (top) */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  padding: 0px; /* Remove padding if not needed */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+.chart-container {
+  width: 100%; /* Adjust width as needed */
+  max-width: 9000px; /* Set a maximum width if needed */
+  height: 60vh; /* Set height as a percentage of viewport height */
+  max-height: 600px; /* Optional: set a maximum height */
+  margin-top: 50px; /* Adjust margin to move chart up or down */
+  margin-bottom: 20px; /* Adjust bottom margin if needed */
+  padding: 0; /* Remove padding if any */
+}
+
+.main-content {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items to the top */
+  flex-direction: column; /* Stack children vertically */
+  width: 100vw; /* Full viewport width */
+  margin: 20; /* Remove default margin */
+  padding: 20; /* Remove default padding */
+}

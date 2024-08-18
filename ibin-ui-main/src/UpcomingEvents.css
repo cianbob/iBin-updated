@@ -1,0 +1,34 @@
+.upcoming-events {
+    padding-left: 20px; /* Adjust padding if needed */
+    font-family: Arial, sans-serif;
+    font-size: 18px; /* Increase the font size for the whole section */
+}
+
+h2 {
+    margin-bottom: 30px; /* Increase space below heading */
+    font-size: 24px; /* Increase font size of headings */
+}
+
+.events-table {
+    width: 100%; /* Full width of the container */
+    font-size: 18px; /* Increase font size for table content */
+}
+
+.events-table th, .events-table td {
+    border: 3px solid #ddd; /* Increase border width for better visibility */
+    padding: 15px; /* Increase padding inside cells */
+}
+
+.events-table th {
+    background-color: #f4f4f4; /* Background color for header cells */
+    font-weight: bold; /* Make header text bold */
+}
+
+.events-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Background color for alternate rows */
+}
+
+/* Optional: Increase the width of the table itself if needed */
+.events-table {
+    max-width: 100%; /* Ensure it scales with the container */
+}
